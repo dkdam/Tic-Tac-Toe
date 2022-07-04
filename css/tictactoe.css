@@ -1,0 +1,23 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.grid-container {
+    /* border: 1px solid black; */
+    display: grid;
+    gap: 5px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    border: 1px solid black;
+    padding: 69px;
+}
+
+#grid-item3 {
+    display: grid;
+    grid-column: 3;
+}
