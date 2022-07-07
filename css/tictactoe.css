@@ -1,23 +1,129 @@
-body {
-    background-color: antiquewhite;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+* {
+    color: antiquewhite;
+    font-family: 'Schoolbell', cursive;
 }
 
-.grid-container {
-    /* border: 1px solid black; */
-    display: grid;
-    gap: 5px;
-    width: 500px;
-    height: 500px;
+body {
+    background-color: black;
+    background-image: url('/img/pexels-ekrulila-4491535.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    text-align: center;
     margin: 0 auto;
 }
 
-.grid-item {
-    border: 1px solid black;
-    padding: 69px;
+body::before {
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
 }
 
-#grid-item3 {
-    display: grid;
-    grid-column: 3;
+h1 {
+    font-size: 69px;
+    animation: bounceInDown;
+    animation-duration: .8s;
 }
+
+h3 {
+    font-size: 30px;
+    animation: bounce;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    animation: bounce;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+}
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: 0 auto;
+    max-width: 300px;
+    animation: rotateIn;
+    animation-duration: 1.5s;
+}
+
+.grid {
+    border: 1px solid antiquewhite;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 69px;
+}
+
+.grid:hover {
+    cursor: pointer;
+}
+
+.grid:first-child,
+.grid:nth-child(2),
+.grid:nth-child(3) {
+    border-top: none;
+}
+
+.grid:nth-child(3n + 3) {
+    border-right: none;
+}
+
+.grid:nth-child(3n + 1) {
+    border-left: none;
+}
+
+.grid:last-child,
+.grid:nth-child(8),
+.grid:nth-child(7) {
+    border-bottom: none;
+}
+
+.playerX {
+    color: red;
+}
+
+.playerX:hover {
+    cursor: not-allowed;
+    animation: tada;
+    animation-duration: .5s;
+    border: none;
+}
+
+.playerO {
+    color: blue;
+}
+
+.playerO:hover {
+    cursor: not-allowed;
+    animation: tada;
+    animation-duration: .5s;
+    border: none;
+}
+
+#reset {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 30px;
+    min-width: 120px;
+    min-height: 50px;
+    margin: 25px;
+    animation: bounceInUp;
+    animation-duration: .8s;
+}
+
+.whoWins {
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(159, 79, 250);
+}
+

@@ -2,30 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/tictactoe.css">
     <title>Project0 : TicTacToe</title>
 </head>
 <body>
-    <h1>Tic Tac Toe</h1>
 
-    <div id="players">
-        <div id="player"></div>
-        <div id="tie"></div>
-        <div id="cpu"></div>
-    </div>
+    <header>
+        <h1>Tic Tac Toe</h1>
+        <div class="display hide whoWins"></div>
+        <h3>Player <span class="display-player playerX">X start</span> Turn</h3>
+    </header>
 
-    <div class="grid-container">
-        <div class="grid-item" id="grid-item1">1</div>
-        <div class="grid-item" id="grid-item2">2</div>
-        <div class="grid-item" id="grid-item3">3</div>
-        <div class="grid-item" id="grid-item4">4</div>
-        <div class="grid-item" id="grid-item5">5</div>
-        <div class="grid-item" id="grid-item6">6</div>
-        <div class="grid-item" id="grid-item7">7</div>
-        <div class="grid-item" id="grid-item8">8</div>
-        <div class="grid-item" id="grid-item9">9</div>
+    <div class="board">
+        <div class="grid"></div>
+        <div class="grid"></div>
+        <div class="grid"></div>
+        <div class="grid"></div>
+        <div class="grid"></div>
+        <div class="grid"></div>
+        <div class="grid"></div>
+        <div class="grid"></div>
+        <div class="grid"></div>
     </div> 
 
+    <button id="reset">Reset</button>
+
 </body>
+    <script src="js/jquery.js"></script>
     <script src="js/tictactoe.js"></script>
 </html>
