@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is one of my first **Project**. The first project of the course was to create a simple _Tic Tac Toe_ game. It's a simple game that require us to use the skill that we have learnt in the last 2-3 weeks since the beginning of our course. 
+This is one of my first **Project** from GA (General Assembly). The first project of the course was to create a simple _Tic Tac Toe_ game. It's a simple game that require us to use the skill that we have learnt in the last 2-3 weeks since the beginning of our course. 
 
 This game have the following rules:
 
@@ -21,13 +21,13 @@ And then press the **Reset Button** to play again.
 This game was created with the following:
 
 ### Languages
-- HTML
-- CSS
-- Javascript
+- HTML 5
+- CSS 3
+- Javascript ES6
 
 ### Libraries
-- Jquery
-- Animate CSS
+- Jquery v3.6.0
+- Animate CSS v4.1.1
 
 # How to Use 
 
@@ -38,4 +38,8 @@ https://dkdam.github.io/project0/
 And simply play! =D
 
 (unfortunately no AI to play against with).
+
+# Preview
+
+![preview](/img/Screenshot-from-2022-07-08.png)
 
