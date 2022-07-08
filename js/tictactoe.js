@@ -9,7 +9,6 @@ let choices = ['','','','','','','','',''];
 let currentPlayer = 'X';
 let gameActive = true;
 
-
 const xWin = 'X';
 const oWin = 'O';
 const tie = 'tie';
@@ -24,8 +23,6 @@ const winChoice = [
     [0,4,8],
     [2,4,6]
 ];
-
-
 
 // start the game
 const userAction = (grid, index) => {
@@ -49,7 +46,6 @@ const validGrid = (grid) => {
         return false;
     }
     return true;
-
 }
 
 //update the box
@@ -86,7 +82,6 @@ const checkResult = function () {
         gameActive = false;
         return;
     }
-
 }
 
 //display a winner
@@ -121,7 +116,6 @@ const resetBoard = () => {
         $('.grid').removeClass('playerX')
         $('.grid').removeClass('playerO')
     });
-
 }
 
 $(reset).on('click',resetBoard) 

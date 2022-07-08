@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is my first **Project** from GA(General Assembly). The first project of the course was to create a simple _Tic Tac Toe_ game. It's a simple game that require us to use the skill that we have learnt in the last 2-3 weeks since the beginning of our course. 
+This is one of my first **Project**. The first project of the course was to create a simple _Tic Tac Toe_ game. It's a simple game that require us to use the skill that we have learnt in the last 2-3 weeks since the beginning of our course. 
 
 This game have the following rules:
 
@@ -38,3 +38,4 @@ https://dkdam.github.io/project0/
 And simply play! =D
 
 (unfortunately no AI to play against with).
+
