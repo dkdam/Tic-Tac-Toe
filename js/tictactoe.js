@@ -1,13 +1,17 @@
 
 const grids = Array.from($('.grid')); 
-const displayPlayer = $('.playerX') 
+const displayPlayer = $('.playerX') ;
 const reset = $('#reset'); 
+const resetScore = $('#resetScore');
 const display = $('.display'); 
-const whoWins = $('.whoWins')
+const whoWins = $('.whoWins');
 
 let choices = ['','','','','','','','','']; 
 let currentPlayer = 'X';
 let gameActive = true;
+
+let playerXScore = 0;
+let playerOScore = 0;
 
 const xWin = 'X';
 const oWin = 'O';
@@ -89,9 +93,13 @@ const displayWin = (type) => {
     switch(type){
         case xWin:
             $(whoWins).text(`Player X Wins`);
+            playerXScore++; // add scores for X
+            $('.Xscore').text(playerXScore)
             break;
         case oWin:
             $(whoWins).text(`Player O Wins`);
+            playerOScore++; // add scores for O
+            $('.Oscore').text(playerOScore)
             break;
         case tie:
             $(whoWins).text(`Tie!`);
@@ -118,4 +126,13 @@ const resetBoard = () => {
     });
 }
 
+//restart buttons
 $(reset).on('click',resetBoard) 
+
+$(resetScore).click(function() {
+    resetBoard()
+    playerXScore = 0;
+    $('.Xscore').text(playerXScore)
+    playerOScore = 0;
+    $('.Oscore').text(playerOScore)
+})

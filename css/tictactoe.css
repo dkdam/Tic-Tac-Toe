@@ -44,6 +44,10 @@ h3 {
     animation-delay: 0.3s;
 }
 
+.theGame {
+    display: flex;
+}
+
 .board{
     display: grid;
     grid-template-columns: repeat(3,auto);
@@ -88,6 +92,16 @@ h3 {
     border-bottom: none;
 }
 
+.Xscore {
+    font-size: 50px;
+    color: red;
+}
+
+.Oscore {
+    font-size: 50px;
+    color: blue;
+}
+
 .playerX {
     color: red;
 }
@@ -110,7 +124,7 @@ h3 {
     border: none;
 }
 
-#reset {
+#reset, #resetScore {
     background-color: antiquewhite;
     color: black;
     font-size: 30px;
