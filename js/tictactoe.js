@@ -86,6 +86,7 @@ const checkResult = function () {
         gameActive = false;
         return;
     }
+
 }
 
 //display a winner

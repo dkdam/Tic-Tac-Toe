@@ -41,5 +41,4 @@ And simply play! =D
 
 # Preview
 
-![preview](/img/Screenshot-from-2022-07-08.png)
-
+![preview](/img/Screenshot-2022-07-17-21-19-59.png)
