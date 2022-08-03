@@ -1,8 +1,15 @@
 
-# Project Zero : TicTacToe
+# Tic Tac Toe
 
+## How to Use 
 
-## Introduction
+[Play Here](https://dkdam.github.io/project0/)
+
+And play! =D
+
+(unfortunately no AI to play against with).
+
+# Introduction
 
 This is one of my first **Project** from GA (General Assembly). The first project of the course was to create a simple _Tic Tac Toe_ game. It's a simple game that require us to use the skill that we have learnt in the last 2-3 weeks since the beginning of our course. 
 
@@ -28,16 +35,6 @@ This game was created with the following:
 ### Libraries
 - Jquery v3.6.0
 - Animate CSS v4.1.1
-
-# How to Use 
-
-Simply to to this link here:
-
-https://dkdam.github.io/project0/
-
-And simply play! =D
-
-(unfortunately no AI to play against with).
 
 # Preview
 

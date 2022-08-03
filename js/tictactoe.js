@@ -86,7 +86,7 @@ const checkResult = function () {
         gameActive = false;
         return;
     }
-
+    
 }
 
 //display a winner
@@ -122,8 +122,7 @@ const resetBoard = () => {
 
     grids.forEach(grids => {
         grids.innerText = '';
-        $('.grid').removeClass('playerX')
-        $('.grid').removeClass('playerO')
+        $('.grid').removeClass('playerX playerO')
     });
 }
 
