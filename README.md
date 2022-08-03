@@ -3,7 +3,7 @@
 
 ## How to Use 
 
-[Play Here](https://dkdam.github.io/project0/)
+[Play Here](https://dkdam.github.io/Tic-Tac-Toe/)
 
 And play! =D
 
